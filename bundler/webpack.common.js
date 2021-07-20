@@ -8,7 +8,8 @@ module.exports = {
     output:
     {
         filename: 'bundle.[contenthash].js',
-        path: path.resolve(__dirname, '../dist')
+        // Output to docs so Github Pages can serve it
+        path: path.resolve(__dirname, '../docs')
     },
     devtool: 'source-map',
     plugins:
