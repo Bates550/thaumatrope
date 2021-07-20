@@ -19,8 +19,8 @@ textureManager.onLoad = () => {
 
 const textureLoader = new THREE.TextureLoader(textureManager);
 
-const birdTexture = textureLoader.load("/textures/bird.png");
-const birdcageTexture = textureLoader.load("/textures/birdcage.png");
+const birdTexture = textureLoader.load("./textures/bird.png");
+const birdcageTexture = textureLoader.load("./textures/birdcage.png");
 // const doorAlphaTexture = textureLoader.load("/textures/door/alpha.jpg");
 // const doorAmbientOcclusionTexture = textureLoader.load(
 //   "/textures/door/ambientOcclusion.jpg"
