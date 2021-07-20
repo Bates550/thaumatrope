@@ -75,9 +75,6 @@ birdPlane.position.z = 0.0001;
 
 scene.add(birdPlane);
 
-gui.add(birdPlane.scale, "x").min(0.001).max(1).step(0.001);
-gui.add(birdPlane.scale, "y").min(0.001).max(1).step(0.001);
-
 // Birdcage
 const birdcageMaterial = new THREE.MeshBasicMaterial();
 birdcageMaterial.map = birdcageTexture;
